@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="parent" style={{ textAlign: "center", padding: "20px" }}>
-      <h1>Lifting State Up Demo</h1>
+      <h1>Parent Component</h1>
       <p>Selected Option: {selectedOption || "None"}</p>
       <ChildComponent1 updateOption={updateSelectedOption} />
       <ChildComponent2 updateOption={updateSelectedOption} />
